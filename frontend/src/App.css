@@ -1,7 +1,8 @@
-#components-layout-demo-side .logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(255, 255, 255, 0.3);
+.logo {
+  height: 64px;
+  margin: auto;
+  background-image : url(./assets/logo.PNG);
+  background-size:cover;
 }
 
 .site-layout .site-layout-background {

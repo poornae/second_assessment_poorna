@@ -1,9 +1,9 @@
 import {
-  DesktopOutlined,
+  CalendarOutlined,
   FileOutlined,
   PieChartOutlined,
-  TeamOutlined,
-  UserOutlined,
+  FileAddOutlined,
+  UsergroupAddOutlined,
 } from "@ant-design/icons";
 import { Breadcrumb, Layout, Menu } from "antd";
 import React, { useState } from "react";
@@ -24,19 +24,19 @@ function getItem(label, key, icon, children) {
 
 const items = [
   getItem("Dashboard", "1", <PieChartOutlined />),
-  getItem("Clients", "2", <DesktopOutlined />),
-  getItem("Reservations", "3", <DesktopOutlined />),
-  getItem("Calendar", "4", <DesktopOutlined />),
-  getItem("User", "sub1", <UserOutlined />, [
-    getItem("Tom", "3"),
-    getItem("Bill", "4"),
-    getItem("Alex", "5"),
-  ]),
-  getItem("Team", "sub2", <TeamOutlined />, [
-    getItem("Team 1", "6"),
-    getItem("Team 2", "8"),
-  ]),
-  getItem("Files", "9", <FileOutlined />),
+  getItem("Clients", "2", <UsergroupAddOutlined />),
+  getItem("Reservations", "3", <FileAddOutlined />),
+  getItem("Calendar", "4", <CalendarOutlined />),
+  // getItem("User", "sub1", <UserOutlined />, [
+  //   getItem("Tom", "3"),
+  //   getItem("Bill", "4"),
+  //   getItem("Alex", "5"),
+  // ]),
+  // getItem("Team", "sub2", <TeamOutlined />, [
+  //   getItem("Team 1", "6"),
+  //   getItem("Team 2", "8"),
+  // ]),
+  // getItem("Files", "9", <FileOutlined />),
 ];
 
 const App = () => {
