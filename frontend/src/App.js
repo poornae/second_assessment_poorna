@@ -23,20 +23,15 @@ function getItem(label, key, icon, children) {
 }
 
 const items = [
-  getItem("Dashboard", "1", <PieChartOutlined />),
-  getItem("Clients", "2", <UsergroupAddOutlined />),
-  getItem("Reservations", "3", <FileAddOutlined />),
-  getItem("Calendar", "4", <CalendarOutlined />),
+  getItem("DASHBOARD", "1", <PieChartOutlined />),
+  getItem("CLIENTS", "2", <UsergroupAddOutlined />),
+  getItem("RESERVATIONS", "3", <FileAddOutlined />),
+  getItem("CALENDAR", "4", <CalendarOutlined />),
   // getItem("User", "sub1", <UserOutlined />, [
   //   getItem("Tom", "3"),
   //   getItem("Bill", "4"),
   //   getItem("Alex", "5"),
   // ]),
-  // getItem("Team", "sub2", <TeamOutlined />, [
-  //   getItem("Team 1", "6"),
-  //   getItem("Team 2", "8"),
-  // ]),
-  // getItem("Files", "9", <FileOutlined />),
 ];
 
 const App = () => {
@@ -87,7 +82,7 @@ const App = () => {
               minHeight: 360,
             }}
           >
-            Bill is a cat.
+            {/* Bill is a cat. */}
           </div>
         </Content>
         <Footer
