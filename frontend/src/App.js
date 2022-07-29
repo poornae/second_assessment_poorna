@@ -10,6 +10,7 @@ import React, { useState } from "react";
 import { render } from "react-dom";
 import "./App.css";
 import "antd/dist/antd.css";
+import EventCal from "./pages/calendar";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -67,14 +68,15 @@ const App = () => {
             margin: "0 16px",
           }}
         >
-          <Breadcrumb
+          <EventCal />
+          {/* <Breadcrumb
             style={{
               margin: "16px 0",
             }}
           >
             <Breadcrumb.Item>User</Breadcrumb.Item>
             <Breadcrumb.Item>Bill</Breadcrumb.Item>
-          </Breadcrumb>
+          </Breadcrumb> */}
           <div
             className="site-layout-background"
             style={{

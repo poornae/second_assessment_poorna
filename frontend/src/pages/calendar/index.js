@@ -77,7 +77,7 @@ const getMonthData = (value) => {
   }
 };
 
-const App = () => {
+const EventCal = () => {
   const monthCellRender = (value) => {
     const num = getMonthData(value);
     return num ? (
@@ -109,4 +109,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default EventCal;
