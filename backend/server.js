@@ -7,8 +7,7 @@ app.use(cors());
 
 const jwt = require("jsonwebtoken");
 
-const mongoUrl =
-  "mongodb+srv://jeewantha:qa6EPaqVEiY2ydiG@project2.xxghmj5.mongodb.net/?retryWrites=true&w=majority";
+const mongoUrl = "";
 
 mongoose
   .connect(mongoUrl, {
